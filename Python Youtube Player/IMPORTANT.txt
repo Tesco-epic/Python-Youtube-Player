@@ -1,0 +1,13 @@
+How to install:
+
+1. pip install python-vlc
+2. pip install easygui
+3. pip install pafy
+4. pip install youtube-dl
+
+this will get local files to work, for youtube files extra steps are needed:
+
+1. Find your pafy install directory and replace the backend script with the one provided (this fixes the like / dislike issues)
+2. Find your youtube-dl install directory and replace the youtube-dl file with the one provided (this fixes the user id error)
+
+then youtube playback should work.
